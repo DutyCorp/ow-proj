@@ -1,0 +1,183 @@
+.container p{
+	text-align: center;
+	margin-top: 3%;
+}
+#OWFrontLogo {
+	width: 10%;
+	height: 5%;
+	margin-left: 45%;
+}
+#OWFrontLogo {
+	font-size: 50px;
+}
+
+.box {
+	display: inline-block;
+	font-size: 18px;
+	width: 49%;
+	margin: 0.5%;
+	/*padding: 10px;*/
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	height: 430px;
+}
+
+#Greetings {
+	font-family: 'Condiment', cursive;
+	font-size: 100px;
+	text-align: center;
+}
+
+.title {
+	font-size: 50px;
+	text-align: center;
+}
+
+#Notes {
+	font-size: 14px;
+	text-decoration: 
+}
+
+.wrapper {
+	width: 40%;
+	height: 40%;
+	margin-left: 30%;
+	margin-top: 3%;
+}
+
+.wrapper p {
+	font-size: 30px;
+	text-align: center;
+}
+
+.progress {
+	margin-left: 38%;
+	width: 100px;
+	height: 100px;
+}
+
+#Notes {
+	width: 40%;
+	margin-left: 30%;
+}
+
+.crisp {
+    image-rendering: optimizeSpeed;             /* Older versions of FF */
+    image-rendering: -moz-crisp-edges;          /* FF 6.0+ */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (non standard naming) */
+    image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+    image-rendering: crisp-edges;               /* Possible future browsers. */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE (non standard naming) */
+}
+
+@media screen and (max-width: 1080px) {
+	.progress {
+		margin-left: 30%;
+	}
+
+	.box {
+		width: 100%;
+	}
+}
+
+.circle {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin: 0 auto; 
+}
+.circle2 {
+	display: inline-block;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+}
+
+.rectangle {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+.blue-rectangle {
+	background: #128DD9;
+}
+.red-rectangle {
+	background: #DC002B;
+}
+.purple-rectangle {
+	background: #9E0071;
+}
+
+.purple-color {
+	color: #9E0071;
+}
+.blue-color {
+	color: #128DD9;
+}
+
+
+.red-circle {
+	background: #F22613;
+}
+.yellow-circle {
+	background: #F7CA18;
+}
+.green-circle {
+	background: #26A65B;
+}
+
+.bdpicture {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+#timestamp {
+	font-size: 30px;
+	text-align: right;
+}
+
+.birthdayboy {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin: 0 auto;
+}
+
+.birthdaybox {
+	font-size: 18px;
+	padding: 10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.birthdaytoday {
+	background-color: #128DD9;
+	color: #FFFFFF;
+}
+
+#spanTime {
+	font-size: 20px;
+	text-align: right;
+}
+.centered {
+	text-align: center;
+}
+
+@media only screen and (max-width: 990px){
+	.progress{ margin-bottom: 20px; }
+}
+@media (min-width: 1200px) {
+	.container{
+		width: 95%;
+	}
+}
+@media (max-width: 991px) {
+	.box {
+		width: 98%;
+		margin: 1%;
+	}
+}
